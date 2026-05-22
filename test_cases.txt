@@ -1,0 +1,40 @@
+======================================================================
+TEST CASES FOR STUDENT GRADE CALCULATOR
+======================================================================
+
+Test Case 1: Valid Upper Boundary Input (Grade A)
+--------------------------------------------------
+Input Name: Suriyapriya K
+Input Marks: 95
+Expected Output:
+  Marks: 95.0/100
+  Grade: A
+  Message: Excellent work! You are a superstar! 🌟
+
+
+Test Case 2: Valid Lower Boundary Input (Grade B)
+--------------------------------------------------
+Input Name: Suriyapriya K
+Input Marks: 80
+Expected Output:
+  Marks: 80.0/100
+  Grade: B
+  Message: Very Good! Keep it up! 👍
+
+
+Test Case 3: Invalid Out-of-Bounds Input (Too High)
+--------------------------------------------------
+Input Name: Suriyapriya K
+Input Marks: 105
+Expected Behavior: 
+  Displays: "❌ Invalid input! Marks must be between 0 and 100. Try again."
+  Loop: Asks for marks again without crashing.
+
+
+Test Case 4: Invalid Out-of-Bounds Input (Negative)
+--------------------------------------------------
+Input Name: Suriyapriya K
+Input Marks: -5
+Expected Behavior: 
+  Displays: "❌ Invalid input! Marks must be between 0 and 100. Try again."
+  Loop: Asks for marks again without crashing.
